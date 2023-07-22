@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;ReadsAllDataTypes.java&apos; to &apos;Chapter 4/src/ws5&apos;&#x0D;&#x0A;- Original project: &apos;Chapter 4&apos;&#x0D;&#x0A;- Destination element: &apos;Chapter 4/src/ws5&apos;&#x0D;&#x0A;- Original element: &apos;inputOutput.ReadsAllDataTypes.java&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move compilation unit" destination="/src&lt;ws5" element1="/src&lt;inputOutput{ReadsAllDataTypes.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" patterns="*" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1572570481562" units="1" version="1.0"/>
+</session>

@@ -1,0 +1,29 @@
+package character;
+
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class CharacterMain {
+	
+	private ArrayList<Character> characters;
+	private Scanner inF = new Scanner(System.in);
+	
+	public static void main(String[] args)
+	{
+		
+	}
+	
+	public void importNames() throws IOException, FileNotFoundException
+	{
+		inF = new Scanner(new File("names.txt"));
+		
+		while(inF.hasNextLine())
+		{
+			String name = inF.nextLine();
+			Character char = new Character(name);
+		}
+	}
+}

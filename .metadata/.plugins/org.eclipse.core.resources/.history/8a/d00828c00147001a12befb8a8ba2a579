@@ -1,0 +1,24 @@
+package pokemonProject;
+
+import java.util.Random;
+
+public class Fire2 extends FireType {
+	private static Random rand;
+	private static final int ACCURACY = 80;
+	
+	public Fire2(String name, String cry, int attack) {
+		super("Charmeleon", "melon", 35);
+	}
+	
+	public String Attack(Pokemon pokemon) {
+		rand = new Random();
+		int randNum = rand.nextInt(101);
+		if(randNum <= ACCURACY) {
+			Attack(pokemon);
+			return "The attack was successful!";
+		}
+		else
+			return "The attack missed!";
+		
+	}
+}
